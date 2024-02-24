@@ -1,0 +1,104 @@
+*{
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #B0C4DE;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Lato;
+
+}
+
+.self{
+    font-size: medium;
+    font-weight: 600;
+    font-style: ;
+    text-align: center;
+    margin-inline-start: -250px;
+    margin-block-start: 500px;
+}
+
+.signin_box{
+    background-color: beige;
+    height: 400px;
+    width: 350px;
+    border-radius: 5px;
+    margin-inline-start: -100px;
+
+}
+
+.signin_box h2{
+    font-weight: 1000;
+    color: ;
+    margin-inline-start: 40px;
+}
+
+.signin_box label{
+    font-size: larger;
+    font-weight: 600;
+    margin-inline-start: 22px;
+
+}
+
+.signin_box input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid skyblue;
+    margin-inline-start: 22px;
+    background-color: #f5e6c7;
+}
+
+.signin_box a{
+    margin-inline-start: 22px;
+    list-style-type: none;
+    font-style: none;
+
+}
+
+button{
+    width: 300px;
+    height: 55px;
+    font-weight: bolder;
+    font-size: large;
+    margin-inline-start: 22px;
+    color: beige;
+    background-color: #008080;
+      
+}      
+
+.self img{
+    height: 15px;
+}
+
+
+
+/* Media query for smaller screens, adjust the max-width as needed */
+@media only screen and (max-width: 600px) {
+    .footer-image {
+        max-height: 50px; /* Adjust the max height for smaller screens */
+    }
+}
+
+.welcome{
+    font-weight: bolder;
+}
+
+.self2{
+    margin-inline-start: -230px;
+    margin-block-start: 450px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.self2 img{
+    height: 15px;
+}
